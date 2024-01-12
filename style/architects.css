@@ -8,6 +8,19 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Common styles */
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+
+}
+
 /* Header section Styles */
 .header {
     background: rgba(255, 144, 14, 0.10);
@@ -24,6 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 190px;
+    margin-bottom: 102px;
 
 }
 
@@ -44,5 +58,28 @@ nav li {
 
 nav li a {
     text-decoration: none;
+
+}
+
+/* banner styles */
+.banner-content {
+    max-width: 880px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+ 
 
 }
