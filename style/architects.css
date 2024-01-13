@@ -198,7 +198,9 @@ main {
 }
 
 .features-img img {
-    width: 500px;
+  width: 500px;
+  margin-left: 50px;
+    
 
 }
 .ten-year-badge{
@@ -206,7 +208,9 @@ main {
 background: #FF900E;
 color: #FFF;
 width: 342px;
-padding: 46px 42px;
+padding: 35px ;
+position: relative;
+bottom: 100px;
 }
 .ten-year-badge h2{
     color: #FFF;
