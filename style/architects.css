@@ -177,7 +177,7 @@ main {
 .facts-card-container {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 
 }
@@ -185,7 +185,8 @@ main {
 .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
-    padding: 20px;
+    margin-top: 10px;
+    padding:  30px;
 }
 
 .card-stats {
